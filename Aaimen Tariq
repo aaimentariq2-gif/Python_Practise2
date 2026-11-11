@@ -1,0 +1,165 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN7f+L1wE/vFjOHDZ96QLgv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/BismaAsif062/Artificial-Intelligence/blob/main/AI_Assignments_python_Basics.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z6WIHDRaOgZM",
+        "outputId": "62cc6287-9f8a-4493-b9aa-bb3707db699d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, World!\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello, World!\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 10\n",
+        "b = 20\n",
+        "\n",
+        "sum = a + b\n",
+        "print(\"Sum =\", sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MoT442XYPqkX",
+        "outputId": "cf65dc08-ec1c-4c7f-b7dc-22172b3d1bb3"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Sum = 30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input(\"Enter your name: \")\n",
+        "print(\"Welcome\", name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XxFxpQdjPurY",
+        "outputId": "0c96b465-0d23-4101-b65d-15f48e0fe73e"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name: Bisma Asif\n",
+            "Welcome Bisma Asif\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"Enter a number: \"))\n",
+        "\n",
+        "if num % 2 == 0:\n",
+        "    print(\"Even number\")\n",
+        "else:\n",
+        "    print(\"Odd number\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8vVHOdqGP2Ds",
+        "outputId": "2f8eb6bb-9147-4400-c2b3-cc7533a74fc8"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 3\n",
+            "Odd number\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"Enter a number: \"))\n",
+        "\n",
+        "if num > 0:\n",
+        "    print(\"Positive\")\n",
+        "elif num < 0:\n",
+        "    print(\"Negative\")\n",
+        "else:\n",
+        "    print(\"Zero\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZiY2sD4SQHmA",
+        "outputId": "3d79563b-f415-4ca4-e48e-575f98336e4c"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: -1\n",
+            "Negative\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
